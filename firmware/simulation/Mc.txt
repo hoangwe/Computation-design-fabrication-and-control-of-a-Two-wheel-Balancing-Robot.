@@ -1,0 +1,4 @@
+M = ...
+[2*Jw + 2*Jm*n^2 + R^2*(M + 2*m),L*M*R*cos(psi) - 2*Jm*n^2,0;
+ L*M*R*cos(psi) - 2*Jm*n^2,J_psi + L^2*M + 2*Jm*n^2,0;
+ 0,0,J_phi + (W^2*m)/2 + L^2*M*sin(psi)^2 + (W^2*(Jw + Jm*n^2))/(2*R^2)];

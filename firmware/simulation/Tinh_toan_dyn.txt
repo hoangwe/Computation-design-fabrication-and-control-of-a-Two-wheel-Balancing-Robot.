@@ -1,0 +1,8 @@
+T1=(1/2)*m*((R*phi_dot*cos(phi)-(W/2)*cos(phi)*phi_dot)^2+(R*phi_dot*sin(phi)-(W/2)*sin(phi)*phi_dot)^2)
+T2=(1/2)*m*((R*phi_dot*cos(phi)+(W/2)*cos(phi)*phi_dot)^2+(R*phi_dot*sin(phi)+(W/2)*sin(phi)*phi_dot)^2)
+T3=(1/2)*M*((R*phi_dot*cos(phi)+L*cos(psi)*cos(phi)*psi_dot-L*sin(psi)*sin(phi)*phi_dot)^2+(R*phi_dot*sin(phi)+(L*cos(psi)*sin(phi)*psi_dot+L*sin(psi)*sin(phi)*phi_dot))^2+(-L*sin(psi))^2)
+
+
+(M*(L^2*sin(psi)^2 + (R*phi_dot*cos(phi) + L*psi_dot*cos(phi)*cos(psi) - L*phi_dot*sin(phi)*sin(psi))^2 + sin(phi)^2*(R*phi_dot + L*psi_dot*cos(psi) + L*phi_dot*sin(psi))^2))/2 + (m*phi_dot^2*(2*R + W)^2)/8 + (m*phi_dot^2*(2*R - W)^2)/8
+
+

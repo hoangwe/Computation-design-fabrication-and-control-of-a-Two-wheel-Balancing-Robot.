@@ -1,0 +1,4 @@
+tau =...
+[the_2dot*(2*Jw + 2*Jm*n^2 + R^2*(M + 2*m)) - psi_2dot*(2*Jm*n^2 - L*M*R*cos(psi)) - L*M*R*psi_dot^2*sin(psi);
+psi_2dot*(J_psi + L^2*M + 2*Jm*n^2) - the_2dot*(2*Jm*n^2 - L*M*R*cos(psi)) - L*M*g*sin(psi) - L^2*M*phi_dot^2*cos(psi)*sin(psi);
+phi_2dot*(J_phi + (W^2*m)/2 + L^2*M*sin(psi)^2 + (W^2*(Jw + Jm*n^2))/(2*R^2)) + 2*L^2*M*phi_dot*psi_dot*cos(psi)*sin(psi)];
