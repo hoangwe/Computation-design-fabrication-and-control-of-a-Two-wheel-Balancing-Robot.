@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/20/22||15:32:48" using="Simscape Multibody Link Version 6.1" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Mo_hinh" uid="Mo_hinh" version="146">
+<AssemblyFile name="Mo_hinh.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="wheel-2" uid="wheel-2" entityUid="wheel" rigid="true">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15 0 0 0 1</Rotation>
+<Translation>0.093180913219069017 -0.29433230727005111 -0.098934530072967306</Translation>
+</Transform>
+<Instance name="M3 x 0.5mm Thread 3mm-1" uid="M3 x 0.5mm Thread 3mm-1" entityUid="M3 x 0.5mm Thread 3mm*:*Default">
+<Transform>
+<Rotation>0.96188110265624216 0.27346799511608599 0 0 0 1 0.27346799511608599 -0.96188110265624216 0</Rotation>
+<Translation>-0.017682488597345336 -0.01101953466919478 0.018000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="65mm tire_Default_sldprt.step-1" uid="65mm tire_Default_sldprt.step-1" entityUid="65mm tire_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.99674397608408671 -0.080631545564288143 0 0 0 -1 0.080631545564288143 -0.99674397608408671 0</Rotation>
+<Translation>-0.017682488597345281 -0.007819534669194772 0.018000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="blue_wheel_frame_Default_sldprt.step-1" uid="blue_wheel_frame_Default_sldprt.step-1" entityUid="blue_wheel_frame_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0 -0.86602540378443593 0.500000000000005 1 0 0 0 0.500000000000005 0.86602540378443593</Rotation>
+<Translation>-0.017682488597345281 -0.007819534669194772 0.018000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="motor_shaft_coupling_v3-1" uid="motor_shaft_coupling_v3-1" grounded="true" entityUid="motor_shaft_coupling_v3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.017682488597345392 -0.012319534669194776 0.017999999999999988</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="wheel-1" uid="wheel-1" entityUid="wheel" rigid="true">
+<Transform>
+<Rotation>-3.5122275269625446e-16 1 0 0.97441269443728273 3.5357979824507218e-16 0.22476632514563855 0.22476632514563855 0 -0.97441269443728273</Rotation>
+<Translation>-0.098380017442542794 -0.29883054836152334 -0.059420673591637857</Translation>
+</Transform>
+<Instance name="M3 x 0.5mm Thread 3mm-1" uid="M3 x 0.5mm Thread 3mm-1" entityUid="M3 x 0.5mm Thread 3mm*:*Default">
+<Transform>
+<Rotation>0.96188110265624238 0.2734679951160861 0 0 0 1 0.2734679951160861 -0.96188110265624238 0</Rotation>
+<Translation>-0.017682488597345336 -0.011019534669194767 0.018000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="65mm tire_Default_sldprt.step-1" uid="65mm tire_Default_sldprt.step-1" entityUid="65mm tire_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.9967439760840866 -0.080631545564288115 0 0 0 -0.99999999999999989 0.080631545564288115 -0.9967439760840866 0</Rotation>
+<Translation>-0.017682488597345336 -0.007819534669194772 0.017999999999999988</Translation>
+</Transform>
+</Instance>
+<Instance name="blue_wheel_frame_Default_sldprt.step-1" uid="blue_wheel_frame_Default_sldprt.step-1" entityUid="blue_wheel_frame_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0 -0.86602540378443582 0.500000000000005 1 0 0 0 0.500000000000005 0.86602540378443582</Rotation>
+<Translation>-0.017682488597345336 -0.007819534669194772 0.018000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="motor_shaft_coupling_v3-1" uid="motor_shaft_coupling_v3-1" grounded="true" entityUid="motor_shaft_coupling_v3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.017682488597345336 -0.012319534669194762 0.018000000000000002</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Floor_3-1" uid="Floor_3-1" grounded="true" entityUid="Floor_3" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.1172206509989184 -0.10028462574239813 -0.036066539891043269</Translation>
+</Transform>
+<Instance name="M3 NUT_Default_sldprt.step-3" uid="M3 NUT_Default_sldprt.step-3" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.2648045872663326 0 -0.96430209507327502 0.96430209507327502 0 -0.2648045872663326 0 -1 0</Rotation>
+<Translation>-0.19482020311065576 -0.1717301701249995 -0.0098679901819209714</Translation>
+</Transform>
+</Instance>
+<Instance name="JGB37-520_with_encoder-2" uid="JGB37-520_with_encoder-2" entityUid="JGB37-520_with_encoder" rigid="true">
+<Transform>
+<Rotation>-3.535797932077138e-16 0 -0.99999999999999978 1 1.3988810110276972e-14 -3.5357979320771345e-16 1.3877787807814457e-14 -1 0</Rotation>
+<Translation>-0.20282020311065593 -0.21173017012499964 -0.037867990181920975</Translation>
+</Transform>
+<Instance name="CONNECTION, DC MOTOR, JGB37-520-1-1" uid="CONNECTION, DC MOTOR, JGB37-520-1-1" grounded="true" entityUid="CONNECTION, DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>1 7.0939849801487824e-15 0 7.0939849801487824e-15 -1 0 0 0 -1</Rotation>
+<Translation>0 -0.012799999999999999 -0.050249999999999968</Translation>
+</Transform>
+</Instance>
+<Instance name="PLASTIC COVER, DC MOTOR, JGB37-520-1-1" uid="PLASTIC COVER, DC MOTOR, JGB37-520-1-1" grounded="true" entityUid="PLASTIC COVER, DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.048499999999999974</Translation>
+</Transform>
+</Instance>
+<Instance name="MOTOR SHAFT, JGB37-520-1-1" uid="MOTOR SHAFT, JGB37-520-1-1" grounded="true" entityUid="MOTOR SHAFT, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>-0.94250554661510455 -0.33419050644768894 0 0.33419050644768894 -0.94250554661510455 0 0 0 0.99999999999999978</Rotation>
+<Translation>0 0.0070000000000000062 0</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-2" uid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-2" grounded="true" entityUid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)*:*Default">
+<Transform>
+<Rotation>0 -0.80185760513815429 0.59751517226100936 0 0.59751517226100936 0.80185760513815429 -1 0 0</Rotation>
+<Translation>0.013423393758658753 0.0077500000000000624 0</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-1" uid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-1" grounded="true" entityUid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)*:*Default">
+<Transform>
+<Rotation>0 0.91839212089374811 0.39567147013688408 0 0.39567147013688408 -0.91839212089374811 -1 0 0</Rotation>
+<Translation>0 -0.015499999999999993 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DC MOTOR, JGB37-520-1-1" uid="DC MOTOR, JGB37-520-1-1" grounded="true" entityUid="DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>0 0 -0.028999999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="SHAFT COUPLER, JGB37-520-1-1" uid="SHAFT COUPLER, JGB37-520-1-1" grounded="true" entityUid="SHAFT COUPLER, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>0.63178652509498823 -0.77514242994974791 0 0.7751424299497478 0.63178652509498823 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0.0070000000000000062 0</Translation>
+</Transform>
+</Instance>
+<Instance name="CONNECTION, DC MOTOR, JGB37-520-1-2" uid="CONNECTION, DC MOTOR, JGB37-520-1-2" grounded="true" entityUid="CONNECTION, DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>-1 -1.1102230246251565e-16 0 -1.1102230246251565e-16 1 0 0 0 -1</Rotation>
+<Translation>0 0.012800000000000006 -0.050249999999999968</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-3" uid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-3" grounded="true" entityUid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)*:*Default">
+<Transform>
+<Rotation>0 -0.11653451575560131 -0.99318664239789667 0 -0.99318664239789667 0.11653451575560131 -1 0 0</Rotation>
+<Translation>-0.013423393758658753 0.0077500000000000624 0</Translation>
+</Transform>
+</Instance>
+<Instance name="GEARED BODY, MOTOR, JGB37-520-1-1" uid="GEARED BODY, MOTOR, JGB37-520-1-1" grounded="true" entityUid="GEARED BODY, MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1-1" uid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1-1" grounded="true" entityUid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.024999999999999994</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Part3-1" uid="Part3-1" grounded="true" entityUid="Part3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.11982020311065582 -0.21173017012499953 -0.0098679901819209714</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="37 mm DC Geared Motor Mounting Bracket-1" uid="37 mm DC Geared Motor Mounting Bracket-1" entityUid="37 mm DC Geared Motor Mounting Bracket*:*Default">
+<Transform>
+<Rotation>1 0 -3.6082248300317588e-16 3.6082248300317588e-16 0 1 0 -0.99999999999999989 0</Rotation>
+<Translation>-0.20432020311065582 -0.21173017012499953 -0.037867990181921003</Translation>
+</Transform>
+</Instance>
+<Instance name="37 mm DC Geared Motor Mounting Bracket-2" uid="37 mm DC Geared Motor Mounting Bracket-2" entityUid="37 mm DC Geared Motor Mounting Bracket*:*Default">
+<Transform>
+<Rotation>-1 0 5.8286708792820718e-16 -5.8286708792820718e-16 0 -1 0 -0.99999999999999967 0</Rotation>
+<Translation>-0.035320203110655798 -0.21173017012499953 -0.037867990181921017</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-2" uid="M3 NUT_Default_sldprt.step-2" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.33549940203115214 0 -0.94204041910989122 0.94204041910989122 0 0.33549940203115214 0 -1 0</Rotation>
+<Translation>-0.044820203110655821 -0.25173017012499943 -0.0098679901819209714</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-1" uid="M3 NUT_Default_sldprt.step-1" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.99219272488928401 0 -0.12471405965959852 0.12471405965959852 0 -0.99219272488928401 0 -1 0</Rotation>
+<Translation>-0.044820203110655821 -0.17173017012499955 -0.0098679901819209714</Translation>
+</Transform>
+</Instance>
+<Instance name="JGB37-520_with_encoder-1" uid="JGB37-520_with_encoder-1" entityUid="JGB37-520_with_encoder" rigid="true">
+<Transform>
+<Rotation>-5.7912033416564132e-16 0 0.99999999999999978 -0.99999999999999989 -7.716050021144838e-15 -5.7912033416564171e-16 7.716050021144838e-15 -0.99999999999999989 0</Rotation>
+<Translation>-0.036820203110655841 -0.21173017012499942 -0.037867990181921128</Translation>
+</Transform>
+<Instance name="CONNECTION, DC MOTOR, JGB37-520-1-1" uid="CONNECTION, DC MOTOR, JGB37-520-1-1" grounded="true" entityUid="CONNECTION, DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>1 6.9829626776862659e-15 0 6.9829626776862659e-15 -1 0 0 0 -1</Rotation>
+<Translation>0 -0.012799999999999992 -0.050249999999999961</Translation>
+</Transform>
+</Instance>
+<Instance name="PLASTIC COVER, DC MOTOR, JGB37-520-1-1" uid="PLASTIC COVER, DC MOTOR, JGB37-520-1-1" grounded="true" entityUid="PLASTIC COVER, DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.048499999999999967</Translation>
+</Transform>
+</Instance>
+<Instance name="MOTOR SHAFT, JGB37-520-1-1" uid="MOTOR SHAFT, JGB37-520-1-1" grounded="true" entityUid="MOTOR SHAFT, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>-0.94250554661510455 -0.334190506447689 0 0.334190506447689 -0.94250554661510455 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0.0069999999999999923 0</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-2" uid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-2" grounded="true" entityUid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)*:*Default">
+<Transform>
+<Rotation>0 -0.80185760513815429 0.59751517226100936 0 0.59751517226100936 0.80185760513815429 -0.99999999999999978 0 0</Rotation>
+<Translation>0.013423393758658753 0.0077500000000000624 0</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-1" uid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-1" grounded="true" entityUid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)*:*Default">
+<Transform>
+<Rotation>0 0.91839212089374811 0.39567147013688408 0 0.39567147013688408 -0.91839212089374811 -0.99999999999999978 0 0</Rotation>
+<Translation>0 -0.015499999999999993 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DC MOTOR, JGB37-520-1-1" uid="DC MOTOR, JGB37-520-1-1" grounded="true" entityUid="DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>-1 -1.1102230246251568e-16 0 1.1102230246251568e-16 -1 0 0 0 1</Rotation>
+<Translation>0 0 -0.028999999999999984</Translation>
+</Transform>
+</Instance>
+<Instance name="SHAFT COUPLER, JGB37-520-1-1" uid="SHAFT COUPLER, JGB37-520-1-1" grounded="true" entityUid="SHAFT COUPLER, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>0.63178652509498812 -0.7751424299497478 0 0.7751424299497478 0.63178652509498812 0 0 0 0.99999999999999978</Rotation>
+<Translation>0 0.0069999999999999923 0</Translation>
+</Transform>
+</Instance>
+<Instance name="CONNECTION, DC MOTOR, JGB37-520-1-2" uid="CONNECTION, DC MOTOR, JGB37-520-1-2" grounded="true" entityUid="CONNECTION, DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0 0.012799999999999992 -0.050249999999999961</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-3" uid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)-3" grounded="true" entityUid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)*:*Default">
+<Transform>
+<Rotation>0 -0.1165345157556012 -0.99318664239789667 0 -0.99318664239789667 0.1165345157556012 -1 0 0</Rotation>
+<Translation>-0.013423393758658753 0.0077500000000000624 0</Translation>
+</Transform>
+</Instance>
+<Instance name="GEARED BODY, MOTOR, JGB37-520-1-1" uid="GEARED BODY, MOTOR, JGB37-520-1-1" grounded="true" entityUid="GEARED BODY, MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1-1" uid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1-1" grounded="true" entityUid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.024999999999999988</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-8" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-8" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>0 5.8269638232083385e-16 -1 -0.024200387739512774 -0.99970712772954529 -5.828670879282482e-16 -0.99970712772954529 0.024200387739512774 0</Rotation>
+<Translation>-0.038320203110655801 -0.19623017012499946 -0.037867990181921003</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-7" uid="M3 NUT_Default_sldprt.step-7" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.99332024238078265 0 0.11539019055614365 -0.11539019055614365 0 0.99332024238078265 0 -1 0</Rotation>
+<Translation>-0.19532020311065579 -0.22673017012499955 -0.011367990181920994</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-14" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-14" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>3.7820653394649102e-16 0 1 -0.97002241637412778 0.24301545574653996 3.9047078514587899e-16 -0.24301545574653996 -0.97002241637412778 0</Rotation>
+<Translation>-0.20132020311065579 -0.21948017012499946 -0.051291383940579797</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-1" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-1" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>1.04744440165294e-14 0 -1 0 1 0 1 0 1.04744440165294e-14</Rotation>
+<Translation>-0.038320203110656315 -0.22723017012499894 -0.037867990181923973</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-3" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-3" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>5.8285264572131963e-16 0 -1 -0.99997522212657464 -0.0070395406744864809 -5.828670879282483e-16 -0.0070395406744864809 0.99997522212657464 0</Rotation>
+<Translation>-0.038320203110655815 -0.20398017012499939 -0.024444596423262258</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-3" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-3" entityUid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default">
+<Transform>
+<Rotation>-0.96279757922532627 0.27022365077441313 0 0.27022365077441313 0.96279757922532627 0 0 0 -1</Rotation>
+<Translation>-0.0683202031106558 -0.22673017012499944 -0.014867990181920969</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-2" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-2" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>5.0297851818140426e-16 -2.9452784662574107e-16 -0.99999999999999978 -0.86293861602168542 0.50530876202434682 -5.8286708792824899e-16 0.50530876202434682 0.86293861602168542 0</Rotation>
+<Translation>-0.038320203110655787 -0.21948017012499946 -0.024444596423262098</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-4" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-4" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>2.9240849724535035e-16 5.042135588504863e-16 -1 -0.50167268542252086 -0.86505752219199628 -5.828670879282485e-16 -0.86505752219199628 0.50167268542252086 0</Rotation>
+<Translation>-0.038320203110655787 -0.21948017012499957 -0.051291383940579811</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-7" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-7" entityUid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default">
+<Transform>
+<Rotation>-0.96279757922532627 0.27022365077441313 0 0.27022365077441313 0.96279757922532627 0 0 0 -1</Rotation>
+<Translation>-0.1953202031106557 -0.22673017012499944 -0.014867990181920969</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1" entityUid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default">
+<Transform>
+<Rotation>0.84918037316309969 0.52810291973684342 0 0.52810291973684342 -0.84918037316309969 0 0 0 -1</Rotation>
+<Translation>-0.044320203110655793 -0.22673017012499955 -0.014867990181920969</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-6" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-6" entityUid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default">
+<Transform>
+<Rotation>-0.96279757922532627 0.27022365077441313 0 0.27022365077441313 0.96279757922532627 0 0 0 -1</Rotation>
+<Translation>-0.19532020311065573 -0.19673017012499946 -0.014867990181920969</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-5" uid="M3 NUT_Default_sldprt.step-5" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.583326791783225 0 -0.8122375600696452 0.8122375600696452 0 -0.583326791783225 0 -1 0</Rotation>
+<Translation>-0.17132020311065582 -0.19673017012499952 -0.011367990181920966</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-5" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-5" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>0 5.7984585959950765e-16 -1 0.10168537514934989 -0.99481660846647313 -5.8286708792824899e-16 -0.99481660846647313 -0.10168537514934989 0</Rotation>
+<Translation>-0.038320203110655815 -0.2039801701249995 -0.051291383940579839</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-6" uid="M3 NUT_Default_sldprt.step-6" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.92565858810111057 0 -0.37835985288433893 0.37835985288433893 0 0.92565858810111057 0 -1 0</Rotation>
+<Translation>-0.19532020311065579 -0.19673017012499952 -0.011367990181920973</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-10" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-10" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>0 -3.8860598108177946e-16 1.0000000000000002 -0.10168537514935 0.99481660846647313 4.0245584642661925e-16 -0.99481660846647313 -0.10168537514934999 0</Rotation>
+<Translation>-0.20132020311065574 -0.19623017012499952 -0.037867990181921003</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-13" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-13" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>3.7784897873674463e-16 0 0.99999999999999989 -0.96912758860040127 0.2465597635738063 3.9047078514587894e-16 -0.2465597635738063 -0.96912758860040127 0</Rotation>
+<Translation>-0.20132020311065579 -0.22723017012499949 -0.037867990181920934</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-5" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-5" entityUid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default">
+<Transform>
+<Rotation>-0.87778208137007974 -0.47906013988393015 0 -0.47906013988393015 0.87778208137007974 0 0 0 -1</Rotation>
+<Translation>-0.17132020311065582 -0.19673017012499952 -0.014867990181920969</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-9" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-9" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>0 -3.8860598108177946e-16 1.0000000000000002 -0.10168537514935 0.99481660846647313 4.0245584642661925e-16 -0.99481660846647313 -0.10168537514934999 0</Rotation>
+<Translation>-0.20132020311065574 -0.2039801701249995 -0.051291383940579756</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-2" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-2" entityUid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default">
+<Transform>
+<Rotation>-0.24553020657207356 -0.9693889403436966 0 -0.9693889403436966 0.24553020657207356 0 0 0 -1</Rotation>
+<Translation>-0.044320203110655834 -0.19673017012499952 -0.014867990181920969</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-4" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-4" entityUid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default">
+<Transform>
+<Rotation>-0.24553020657207356 -0.9693889403436966 0 -0.9693889403436966 0.24553020657207356 0 0 0 -1</Rotation>
+<Translation>-0.068320203110655772 -0.19673017012499952 -0.014867990181920969</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-8" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-8" entityUid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default">
+<Transform>
+<Rotation>-0.96279757922532627 0.27022365077441313 0 0.27022365077441313 0.96279757922532627 0 0 0 -1</Rotation>
+<Translation>-0.17132020311065577 -0.22673017012499944 -0.014867990181920969</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-11" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-11" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>0 -3.8860598108177946e-16 1.0000000000000002 -0.10168537514935 0.99481660846647313 4.0245584642661925e-16 -0.99481660846647313 -0.10168537514934999 0</Rotation>
+<Translation>-0.20132020311065571 -0.20398017012499961 -0.024444596423262126</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-12" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW-12" entityUid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default">
+<Transform>
+<Rotation>0 -3.8860598108177946e-16 1.0000000000000002 -0.10168537514935 0.99481660846647313 4.0245584642661925e-16 -0.99481660846647313 -0.10168537514934999 0</Rotation>
+<Translation>-0.20132020311065571 -0.21948017012499968 -0.024444596423262278</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-4" uid="M3 NUT_Default_sldprt.step-4" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.54936285044858102 0 -0.83558390275723393 0.83558390275723393 0 0.54936285044858102 0 -1 0</Rotation>
+<Translation>-0.19482020311065573 -0.25173017012499943 -0.0098679901819209714</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm_Default_sldprt.step-6" uid="Tru dong M3 - 35mm_Default_sldprt.step-6" entityUid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57065996270009489 0 -0.82118646297362119 -0.82118646297362119 -1.2010682576764587e-16 -0.57065996270009489 -1.1227768305517042e-16 1 0</Rotation>
+<Translation>-0.044820203110655779 -0.25173017012499943 -0.0068679901819209688</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm-2" uid="M3 x 0.5mm Thread 3mm-2" entityUid="M3 x 0.5mm Thread 3mm*:*Default">
+<Transform>
+<Rotation>0.030749740619532451 -0.99952711491576451 0 -0.99952711491576451 -0.030749740619532451 2.3860430906710565e-16 -2.3827613900064157e-16 0 -1</Rotation>
+<Translation>-0.14232020311065566 -0.23673017012499933 -0.0033679901819209726</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-3" uid="Tru dong M3 - 5mm_Default_sldprt.step-3" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.99935100576814773 0 -0.03602176106455246 -0.03602176106455246 -1.2010682576764552e-16 -0.99935100576814773 0 1 -1.1916740089502442e-16</Rotation>
+<Translation>-0.097320203110655784 -0.2367301701249995 -0.0068679901819209688</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-4" uid="Tru dong M3 - 5mm_Default_sldprt.step-4" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.99409376030613705 0 0.10852463186025912 0.10852463186025912 -1.2010682576764552e-16 -0.99409376030613705 0 1 -1.2199286029736981e-16</Rotation>
+<Translation>-0.097320203110655812 -0.18673017012499951 -0.0068679901819209688</Translation>
+</Transform>
+</Instance>
+<Instance name="Floor_2-1" uid="Floor_2-1" entityUid="Floor_2" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.09099825070186715 0.020289368751023801 0.073757629291276439</Translation>
+</Transform>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-4" uid="Tru dong M3 - 5mm_Default_sldprt.step-4" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.58745971559673527 0 -0.80925341058966371 -0.80925341058966371 0 0.58745971559673527 0 1 0</Rotation>
+<Translation>-0.016451952408788648 -0.25031953887602337 -0.027625619473197412</Translation>
+</Transform>
+</Instance>
+<Instance name="Mega-2" uid="Mega-2" entityUid="Mega*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 -5.0653925498522767e-16 -5.0653925498522767e-16 0 -1.0000000000000002 0 1 0</Rotation>
+<Translation>-0.06244195240878863 -0.22618953887602322 -0.022625619473197408</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-6" uid="Tru dong M3 - 5mm_Default_sldprt.step-6" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.23811308411870022 0 -0.97123743707266597 -0.97123743707266597 0 -0.23811308411870022 0 1 0</Rotation>
+<Translation>0.0011780475912113418 -0.23979953887602334 -0.027625619473197416</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-1" uid="Tru dong M3 - 5mm_Default_sldprt.step-1" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.26169641226700502 0 -0.96515024105399161 -0.96515024105399161 -1.2010682576765107e-16 0.26169641226700502 -1.0966254721360199e-16 1 0</Rotation>
+<Translation>-0.023071952408788635 -0.20201953887602342 -0.027625619473197412</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-3" uid="Tru dong M3 - 5mm_Default_sldprt.step-3" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.98931708148886799 0 -0.14577967030539138 -0.14577967030539138 0 0.98931708148886799 0 1 0</Rotation>
+<Translation>-0.099001952408788618 -0.25031953887602337 -0.027625619473197412</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-5" uid="Tru dong M3 - 5mm_Default_sldprt.step-5" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.58745971559673527 0 -0.80925341058966371 -0.80925341058966371 0 0.58745971559673527 0 1 0</Rotation>
+<Translation>-0.098001952408788631 -0.20201953887602342 -0.027625619473197412</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-7" uid="Tru dong M3 - 5mm_Default_sldprt.step-7" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.13236833200134215 0 -0.99120059760029522 -0.99120059760029522 0 0.13236833200134215 0 1 0</Rotation>
+<Translation>0.0011780475912120565 -0.22423953887602344 -0.027625619473197412</Translation>
+</Transform>
+</Instance>
+<Instance name="MPU60503-2" uid="MPU60503-2" entityUid="MPU60503*:*Default">
+<Transform>
+<Rotation>0.0065451668518395024 0 -0.99997858016603614 -0.99997858016603614 0 -0.0065451668518395024 0 1 0</Rotation>
+<Translation>0.022890575761776506 -0.22462943622876336 -0.033012486213215703</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-1" uid="Part2-1" grounded="true" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.028821952408788667 -0.23201953887602333 -0.030625619473197412</Translation>
+</Transform>
+</Instance>
+<Instance name="switch-1" uid="switch-1" entityUid="switch*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.036228047591211336 -0.21201953887602332 -0.016925619473197411</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-10" uid="M3 NUT_Default_sldprt.step-10" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.52310975337510657 0 -0.85226532601287708 0.85226532601287708 0 0.52310975337510657 0 -1 0</Rotation>
+<Translation>-0.044320203110655779 -0.2267301701249996 -0.011367990181920973</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm_Default_sldprt.step-5" uid="Tru dong M3 - 35mm_Default_sldprt.step-5" entityUid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57065996270009489 0 -0.82118646297362119 -0.82118646297362119 -1.2010682576764587e-16 -0.57065996270009489 -1.1227768305517042e-16 1 0</Rotation>
+<Translation>-0.044820203110655793 -0.17173017012499961 -0.006867990181921392</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm_Default_sldprt.step-7" uid="Tru dong M3 - 35mm_Default_sldprt.step-7" entityUid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57065996270009489 0 -0.82118646297362119 -0.82118646297362119 -1.2010682576764587e-16 -0.57065996270009489 -1.1227768305517042e-16 1 0</Rotation>
+<Translation>-0.19482020311065584 -0.25173017012499943 -0.0068679901819209688</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-1" uid="Tru dong M3 - 5mm_Default_sldprt.step-1" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.96959389423793729 0 0.24471959516252809 0.24471959516252809 -1.201068257676456e-16 -0.96959389423793729 0 1 -1.2230742151214196e-16</Rotation>
+<Translation>-0.14232020311065582 -0.23673017012499956 -0.0068679901819209688</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm_Default_sldprt.step-8" uid="Tru dong M3 - 35mm_Default_sldprt.step-8" entityUid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57065996270009489 0 -0.82118646297362119 -0.82118646297362119 -1.2010682576764587e-16 -0.57065996270009489 -1.1227768305517042e-16 1 0</Rotation>
+<Translation>-0.19482020311065582 -0.1717301701249995 -0.0068679901819209688</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-8" uid="M3 NUT_Default_sldprt.step-8" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.6465220665957041 0 -0.76289528600248924 0.76289528600248924 0 -0.6465220665957041 0 -1 0</Rotation>
+<Translation>-0.17132020311065579 -0.22673017012499949 -0.011367990181920994</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm_Default_sldprt.step-12" uid="Tru dong M3 - 35mm_Default_sldprt.step-12" entityUid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57065996270009489 0 -0.82118646297362119 -0.82118646297362119 -1.2010682576764587e-16 -0.57065996270009489 -1.1227768305517042e-16 1 0</Rotation>
+<Translation>-0.044820203110655807 -0.1717301701249995 0.046132009818079044</Translation>
+</Transform>
+</Instance>
+<Instance name="Floor_1-1" uid="Floor_1-1" entityUid="Floor_1" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.11957919562069966 -0.011370828883007861 0.050487307570166506</Translation>
+</Transform>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-2" uid="Tru dong M3 - 5mm_Default_sldprt.step-2" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -0.99999999999999989 0 0.99999999999999989 0</Rotation>
+<Translation>-0.00024100748995615519 -0.18135934124199171 0.045644702247912505</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-1" uid="Tru dong M3 - 5mm_Default_sldprt.step-1" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -0.99999999999999989 0 0.99999999999999989 0</Rotation>
+<Translation>-0.00024100748995613741 -0.21935934124199169 0.045644702247912512</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-7" uid="Tru dong M3 - 5mm_Default_sldprt.step-7" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.98785798723862916 0 0.15535957340583875 0.15535957340583878 0 -0.98785798723862905 0 0.99999999999999989 0</Rotation>
+<Translation>-0.075241007489956144 -0.24035934124199182 0.045644702247912512</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1-1" uid="Part1-1" grounded="true" entityUid="Part1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00024100748995614305 -0.20035934124199167 0.042644702247912503</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-3" uid="Tru dong M3 - 5mm_Default_sldprt.step-3" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.10469424969971312 0 -0.99450445654095188 -0.99450445654095199 0 -0.10469424969971311 0 0.99999999999999989 0</Rotation>
+<Translation>0.074758992510043795 -0.16035934124199164 0.045644702247912505</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-4" uid="Tru dong M3 - 5mm_Default_sldprt.step-4" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.98785798723862916 0 0.15535957340583875 0.15535957340583878 0 -0.98785798723862905 0 0.99999999999999989 0</Rotation>
+<Translation>0.074758992510043851 -0.24035934124199171 0.045644702247912498</Translation>
+</Transform>
+</Instance>
+<Instance name="TATTU 1800mah 4s-1" uid="TATTU 1800mah 4s-1" entityUid="TATTU 1800mah 4s" rigid="true">
+<Transform>
+<Rotation>-0.99996192306417131 1.7304399290434547e-14 -0.0087265354983767241 -0.0087265354983767241 1.7609084648887942e-14 0.99996192306417131 1.7457406694215645e-14 1 -1.7457406694215692e-14</Rotation>
+<Translation>-0.0017547372973457853 -0.20020545719146671 0.045644702247916065</Translation>
+</Transform>
+<Instance name="NUCLEO-1" uid="NUCLEO-1" entityUid="NUCLEO*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="XT60 Buchse-2" uid="XT60 Buchse-2" entityUid="XT60 Buchse*:*Predeterminado">
+<Transform>
+<Rotation>-2.9411130674854692e-15 0 1 1 -4.5102810375396038e-16 2.9411130674854534e-15 4.5102810375397931e-16 1 0</Rotation>
+<Translation>0.017532973376140855 0.011883261256148178 -0.021693172526161653</Translation>
+</Transform>
+</Instance>
+<Instance name="JST XHP-4-1" uid="JST XHP-4-1" entityUid="JST XHP-4*:*Predeterminado">
+<Transform>
+<Rotation>0.15281544660317845 0.98695847499541312 -0.050600473458257487 -0.9373344494748308 0.16097492275635433 0.30901651100111388 0.31313187175244062 0.00020707079577034221 0.94970963352726856</Rotation>
+<Translation>-0.057484754231943526 0.0092521184455799654 -0.013800251946227138</Translation>
+</Transform>
+</Instance>
+<Instance name="FUNDA-1" visible="false" uid="FUNDA-1" entityUid="FUNDA*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.00019999999999999879 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-5" uid="Tru dong M3 - 5mm_Default_sldprt.step-5" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.98785798723862916 0 0.15535957340583875 0.15535957340583878 0 -0.98785798723862905 0 0.99999999999999989 0</Rotation>
+<Translation>-0.075241007489956158 -0.16035934124199175 0.045644702247912519</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm-1" uid="M3 x 0.5mm Thread 3mm-1" entityUid="M3 x 0.5mm Thread 3mm*:*Default">
+<Transform>
+<Rotation>0.030749740619532451 -0.99952711491576451 0 -0.99952711491576451 -0.030749740619532451 2.3860430906710565e-16 -2.3827613900064157e-16 0 -1</Rotation>
+<Translation>-0.097320203110655853 -0.23673017012499961 -0.0033679901819202371</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-11" uid="M3 NUT_Default_sldprt.step-11" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.99820944942320744 0 0.059815508709842438 -0.059815508709842438 0 -0.99820944942320744 0 -1 0</Rotation>
+<Translation>-0.068320203110655814 -0.19673017012499952 -0.011367990181921021</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm_Default_sldprt.step-9" uid="Tru dong M3 - 35mm_Default_sldprt.step-9" entityUid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57065996270009489 0 -0.82118646297362119 -0.82118646297362119 -1.2010682576764587e-16 -0.57065996270009489 -1.1227768305517042e-16 1 0</Rotation>
+<Translation>-0.19482020311065576 -0.25173017012499943 0.04613200981807903</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 5mm_Default_sldprt.step-2" uid="Tru dong M3 - 5mm_Default_sldprt.step-2" entityUid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.99961194137463638 0 -0.02785617815191125 -0.02785617815191125 -1.2010682576764552e-16 -0.99961194137463638 0 1 -1.1939402454387492e-16</Rotation>
+<Translation>-0.14232020311065582 -0.18673017012499951 -0.0068679901819209688</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm_Default_sldprt.step-10" uid="Tru dong M3 - 35mm_Default_sldprt.step-10" entityUid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57065996270009489 0 -0.82118646297362119 -0.82118646297362119 -1.2010682576764587e-16 -0.57065996270009489 -1.1227768305517042e-16 1 0</Rotation>
+<Translation>-0.044820203110655779 -0.25173017012499943 0.04613200981807903</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-19" uid="M3 NUT_Default_sldprt.step-19" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.68459453614656574 0 0.72892408457827007 -0.72892408457827007 0 0.68459453614656574 0 -1 0</Rotation>
+<Translation>-0.1074502031106557 -0.23003017012499941 0.043132009818079027</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-18" uid="M3 NUT_Default_sldprt.step-18" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.97208531618561267 0 0.23462765833617633 -0.23462765833617633 0 -0.97208531618561267 0 -1 0</Rotation>
+<Translation>-0.19000020311065577 -0.23003017012499952 0.043132009818079027</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-9" uid="M3 NUT_Default_sldprt.step-9" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.95979446773906574 0 -0.28070372227222784 0.28070372227222784 0 -0.95979446773906574 0 -1 0</Rotation>
+<Translation>-0.068320203110655744 -0.22673017012499938 -0.011367990181921021</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-12" uid="M3 NUT_Default_sldprt.step-12" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.95979446773906574 0 -0.28070372227222784 0.28070372227222784 0 -0.95979446773906574 0 -1 0</Rotation>
+<Translation>-0.044320203110655793 -0.19673017012499941 -0.011367990181921035</Translation>
+</Transform>
+</Instance>
+<Instance name="l298-1" uid="l298-1" entityUid="l298*:*Default">
+<Transform>
+<Rotation>-1.0547118733938987e-15 0 1.0000000000000002 1.0000000000000002 -2.3860430906710831e-16 1.0547118733938987e-15 2.3860430906711369e-16 1 0</Rotation>
+<Translation>-0.11982020311065575 -0.21173017012499942 -0.0018679901819209643</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm_Default_sldprt.step-11" uid="Tru dong M3 - 35mm_Default_sldprt.step-11" entityUid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57065996270009489 0 -0.82118646297362119 -0.82118646297362119 -1.2010682576764587e-16 -0.57065996270009489 -1.1227768305517042e-16 1 0</Rotation>
+<Translation>-0.19482020311065573 -0.1717301701249995 0.046132009818079037</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-14" uid="M3 NUT_Default_sldprt.step-14" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.82940302641286923 0 -0.55865071357438889 0.55865071357438889 0 -0.82940302641286923 0 -1 0</Rotation>
+<Translation>-0.14232020311065585 -0.18673017012499957 -0.0098679901819209714</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-15" uid="M3 NUT_Default_sldprt.step-15" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.99257406496525935 0 0.12164179198918834 -0.12164179198918834 0 -0.99257406496525935 0 -1 0</Rotation>
+<Translation>-0.18900020311065591 -0.18173017012499967 0.043132009818079027</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-13" uid="M3 NUT_Default_sldprt.step-13" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.95979446773906574 0 -0.28070372227222784 0.28070372227222784 0 -0.95979446773906574 0 -1 0</Rotation>
+<Translation>-0.097320203110655756 -0.1867301701249994 -0.0098679901819209714</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-21" uid="M3 NUT_Default_sldprt.step-21" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.92031366528085679 0 -0.39118123356995926 0.39118123356995926 0 -0.92031366528085679 0 -1 0</Rotation>
+<Translation>-0.08982020311065507 -0.20395017012499969 0.043132009818079027</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm-3" uid="M3 x 0.5mm Thread 3mm-3" entityUid="M3 x 0.5mm Thread 3mm*:*Default">
+<Transform>
+<Rotation>0.030749740619532451 -0.99952711491576451 0 -0.99952711491576451 -0.030749740619532451 2.3860430906710565e-16 -2.3827613900064157e-16 0 -1</Rotation>
+<Translation>-0.097320203110655729 -0.18673017012499929 -0.0033679901819209587</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 x 0.5mm Thread 3mm-4" uid="M3 x 0.5mm Thread 3mm-4" entityUid="M3 x 0.5mm Thread 3mm*:*Default">
+<Transform>
+<Rotation>0.030749740619532451 -0.99952711491576451 0 -0.99952711491576451 -0.030749740619532451 2.3860430906710565e-16 -2.3827613900064157e-16 0 -1</Rotation>
+<Translation>-0.14232020311065571 -0.18673017012499935 -0.0033679901819209587</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-23" uid="M3 NUT_Default_sldprt.step-23" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.82940302641286923 0 -0.55865071357438889 0.55865071357438889 0 -0.82940302641286923 0 -1 0</Rotation>
+<Translation>-0.089820203110655777 -0.21951017012499943 0.043132009818079027</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-24" uid="M3 NUT_Default_sldprt.step-24" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.21737021332211193 0 -0.97608923278576309 0.97608923278576309 0 0.21737021332211193 0 -1 0</Rotation>
+<Translation>-0.11982020311065579 -0.23073017012499955 0.093132009818079009</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-16" uid="M3 NUT_Default_sldprt.step-16" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.33549940203115214 0 -0.94204041910989122 0.94204041910989122 0 0.33549940203115214 0 -1 0</Rotation>
+<Translation>-0.097320203110655798 -0.2367301701249995 -0.0098679901819209714</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-17" uid="M3 NUT_Default_sldprt.step-17" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.33549940203115214 0 -0.94204041910989122 0.94204041910989122 0 0.33549940203115214 0 -1 0</Rotation>
+<Translation>-0.1423202031106558 -0.23673017012499956 -0.0098679901819209714</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-20" uid="M3 NUT_Default_sldprt.step-20" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.95979446773906574 0 -0.28070372227222784 0.28070372227222784 0 -0.95979446773906574 0 -1 0</Rotation>
+<Translation>-0.11407020311065576 -0.18173017012499951 0.043132009818079027</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT_Default_sldprt.step-25" uid="M3 NUT_Default_sldprt.step-25" entityUid="M3 NUT_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.75101432038499694 0 -0.66028591577941564 0.66028591577941564 0 -0.75101432038499694 0 -1 0</Rotation>
+<Translation>-0.11982020311065578 -0.19273017012499952 0.093132009818079009</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Floor_3-1</Uid>
+<Uid>JGB37-520_with_encoder-2</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1-1</Uid>
+</InstancePath>
+<Position>0 0 0.020999999999999991</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel-1</Uid>
+<Uid>motor_shaft_coupling_v3-1</Uid>
+</InstancePath>
+<Position>0 0.018000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Floor_3-1</Uid>
+<Uid>JGB37-520_with_encoder-2</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1-1</Uid>
+</InstancePath>
+<Position>0 0 0.021499999999999991</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel-1</Uid>
+<Uid>motor_shaft_coupling_v3-1</Uid>
+</InstancePath>
+<Position>0 0.003600000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Floor_3-1</Uid>
+<Uid>JGB37-520_with_encoder-1</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1-1</Uid>
+</InstancePath>
+<Position>0 0 0.020999999999999977</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel-2</Uid>
+<Uid>motor_shaft_coupling_v3-1</Uid>
+</InstancePath>
+<Position>0 0.018000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Floor_3-1</Uid>
+<Uid>JGB37-520_with_encoder-1</Uid>
+<Uid>MOTOR SHAFT, JGB37-520-1-1</Uid>
+</InstancePath>
+<Position>0 0 0.021499999999999977</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel-2</Uid>
+<Uid>motor_shaft_coupling_v3-1</Uid>
+</InstancePath>
+<Position>0 0.003600000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="wheel" uid="wheel" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="wheel.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Floor_3" uid="Floor_3" version="499">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Floor_3.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="JGB37-520_with_encoder" uid="JGB37-520_with_encoder" version="162">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="JGB37-520_with_encoder.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Floor_2" uid="Floor_2" version="344">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Floor_2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Floor_1" uid="Floor_1" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Floor_1.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="TATTU 1800mah 4s" uid="TATTU 1800mah 4s" version="250">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="TATTU 1800mah 4s.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="37 mm DC Geared Motor Mounting Bracket" uid="37 mm DC Geared Motor Mounting Bracket*:*Default" version="244">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="37 mm DC Geared Motor Mounting Bracket.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033920563899161815</Mass>
+<CenterOfMass>0.011619201422884069 -0.017794322947978437 0</CenterOfMass>
+<Inertia>1.0992136371600767e-05 1.0540641608264465e-05 1.2174274805101476e-05 0 0 3.4861601012753134e-06</Inertia>
+</MassProperties>
+<GeometryFile name="37 mm DC Geared Motor Mounting Bracket_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="65mm tire_Default_sldprt.step" uid="65mm tire_Default_sldprt.step*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="65mm tire_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025463060598337896</Mass>
+<CenterOfMass>-0.00098491680203775887 -1.1858164103763278e-11 1.8030016333587561e-05</CenterOfMass>
+<Inertia>1.2926472897470075e-05 1.2891210126834893e-05 2.2259711014141222e-05 -2.2417457466423656e-15 -4.5217827594725198e-10 -7.1903824182455192e-15</Inertia>
+</MassProperties>
+<GeometryFile name="65mm tire_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CONNECTION, DC MOTOR, JGB37-520-1" uid="CONNECTION, DC MOTOR, JGB37-520-1*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CONNECTION, DC MOTOR, JGB37-520-1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6220996596949829e-05</Mass>
+<CenterOfMass>4.9064812128686813e-08 -0.00041016891167320414 0.0012233200709064272</CenterOfMass>
+<Inertia>1.7885771701170281e-10 1.7934394819738794e-10 2.6080641035214352e-11 3.0849141455521614e-11 -1.6143322204230014e-15 0</Inertia>
+</MassProperties>
+<GeometryFile name="CONNECTION- DC MOTOR- JGB37-520-1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.51372549019607838" b="0" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.51372549019607838" b="0" a="1"/>
+<Specular r="0.3235294117647059" g="0.25686274509803919" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1" uid="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="COUPLING BRACKET, GEARED BODY TO DC MOTOR, JGB37-520-1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0034940388522297682</Mass>
+<CenterOfMass>0 0 -0.0020002302022970649</CenterOfMass>
+<Inertia>2.6383973467890707e-07 2.6383973467890707e-07 5.1836402107099356e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="COUPLING BRACKET- GEARED BODY TO DC MOTOR- JGB37-520-1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DC MOTOR, JGB37-520-1" uid="DC MOTOR, JGB37-520-1*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DC MOTOR, JGB37-520-1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013779544327041692</Mass>
+<CenterOfMass>0 0 -0.0071137523745297623</CenterOfMass>
+<Inertia>2.1290817469916951e-07 2.1290817469916951e-07 3.1285872648553553e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DC MOTOR- JGB37-520-1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FUNDA" uid="FUNDA*:*Predeterminado" version="455">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FUNDA.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0027552080429102243</Mass>
+<CenterOfMass>0.0045538671658232888 0.01253803182918033 -1.531003132833452e-06</CenterOfMass>
+<Inertia>7.5372671929578308e-07 3.596489318325911e-06 3.4219532377196613e-06 1.5446326956921361e-10 -2.518293865212751e-10 6.1860121163444566e-09</Inertia>
+</MassProperties>
+<GeometryFile name="FUNDA_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.85882352941176465" g="0.85882352941176465" b="0.85882352941176465" a="0"/>
+<Diffuse r="0.2576470588235294" g="0.2576470588235294" b="0.2576470588235294" a="0"/>
+<Specular r="0.34352941176470586" g="0.34352941176470586" b="0.34352941176470586" a="0"/>
+<Emissive r="0" g="0" b="0" a="0"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEARED BODY, MOTOR, JGB37-520-1" uid="GEARED BODY, MOTOR, JGB37-520-1*:*Default" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEARED BODY, MOTOR, JGB37-520-1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0056164340387609866</Mass>
+<CenterOfMass>4.9007884417444163e-14 -0.00043638886435906914 -0.007947141564493141</CenterOfMass>
+<Inertia>1.0777881286385661e-06 1.0996108915233167e-06 1.3729562190652833e-06 1.3092869293516848e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="GEARED BODY- MOTOR- JGB37-520-1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JST XHP-4" uid="JST XHP-4*:*Predeterminado" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JST XHP-4.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00028807042967635653</Mass>
+<CenterOfMass>-0.0011406075984151207 0.0010995392424490008 0.0038557751925635351</CenterOfMass>
+<Inertia>2.2192933650513709e-09 6.3059036725929688e-09 5.2722807142339967e-09 -4.6161942625958205e-12 -8.1903195158893333e-12 1.3337349261689391e-12</Inertia>
+</MassProperties>
+<GeometryFile name="JST XHP-4_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.30000001192092896" g="0.30000001192092896" b="0.30000001192092896" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 NUT_Default_sldprt.step" uid="M3 NUT_Default_sldprt.step*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 NUT_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4656447169017676e-05</Mass>
+<CenterOfMass>1.6515647270856084e-11 0.0012000000000000014 0</CenterOfMass>
+<Inertia>1.3950191851070572e-10 2.3801812714095466e-10 1.3950535555011776e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M3 NUT_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 x 0.5mm Thread 3mm" uid="M3 x 0.5mm Thread 3mm*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 x 0.5mm Thread 3mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.6252108273509463e-05</Mass>
+<CenterOfMass>-1.5924639158738456e-06 -2.0648126713225191e-07 -0.0037844520349502551</CenterOfMass>
+<Inertia>2.9463204033156225e-10 2.9467105550401223e-10 2.6654679703770693e-10 -8.5296527928315803e-15 2.4064035592948748e-13 4.758539839792305e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M3 x 0.5mm Thread 3mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW" uid="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW*:*Default" version="176">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.689212577797367e-05</Mass>
+<CenterOfMass>-1.8404950924749318e-06 -1.676672885918198e-07 -0.003790524192736957</CenterOfMass>
+<Inertia>2.984288441463647e-10 2.9840595785899477e-10 2.709417824751752e-10 -1.381856125127062e-14 2.0290570402035017e-13 1.7714798950191541e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M3 x 0.5mm Thread 3mm_v2LONG SOCKET HEAD CAP SCREW_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step" uid="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010455965091914622</Mass>
+<CenterOfMass>-1.1421179471701209e-06 -1.559030981172507e-07 -0.007107304647492433</CenterOfMass>
+<Inertia>1.1593094516885476e-09 1.1593843027029555e-09 2.9279731945323694e-10 -9.5480509986852235e-14 3.1159306874642924e-13 4.5446727012608293e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M3 x 0.5mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MOTOR SHAFT, JGB37-520-1" uid="MOTOR SHAFT, JGB37-520-1*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MOTOR SHAFT, JGB37-520-1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00059250975186718121</Mass>
+<CenterOfMass>-5.999494175195361e-05 2.7686297393543973e-10 0.010608090976571477</CenterOfMass>
+<Inertia>2.4078499231664189e-08 2.3987496902115269e-08 2.6118753187047825e-09 -1.4646235292948131e-15 1.6845286563431866e-10 0</Inertia>
+</MassProperties>
+<GeometryFile name="MOTOR SHAFT- JGB37-520-1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MPU60503" uid="MPU60503*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MPU60503.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00039601303459584352</Mass>
+<CenterOfMass>0.0074315208678583568 0.011071375413133237 0.016626702719349597</CenterOfMass>
+<Inertia>7.3981575309909404e-09 2.1008032283792829e-08 1.3785870043644286e-08 -7.5132236741509324e-11 -3.2224943212728284e-11 -7.8524290673627895e-11</Inertia>
+</MassProperties>
+<GeometryFile name="MPU60503_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Mega" uid="Mega*:*Default" version="263">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Mega.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015206724561972262</Mass>
+<CenterOfMass>-0.0029188994187508191 0.0030040310477516979 -0.00077243368635295147</CenterOfMass>
+<Inertia>4.1717695027055142e-06 2.1440512108024489e-05 1.7580779633648433e-05 5.0278873220960752e-08 -3.6521657758780403e-07 2.2583157452592966e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Mega_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NUCLEO" uid="NUCLEO*:*Predeterminado" version="1860">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="NUCLEO.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.091165281118400596</Mass>
+<CenterOfMass>0.0002699246293061874 0.012493679784565354 -0.00023777307784116371</CenterOfMass>
+<Inertia>1.3369647532433357e-05 9.8152032005105277e-05 9.3948046518734776e-05 -2.2757751074634625e-08 -4.1090062549783048e-07 5.5981074780294669e-09</Inertia>
+</MassProperties>
+<GeometryFile name="NUCLEO_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PLASTIC COVER, DC MOTOR, JGB37-520-1" uid="PLASTIC COVER, DC MOTOR, JGB37-520-1*:*Default" version="251">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PLASTIC COVER, DC MOTOR, JGB37-520-1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0081738884267690461</Mass>
+<CenterOfMass>-0.00081900605578046634 6.0691511204099173e-06 0.00054536208041083985</CenterOfMass>
+<Inertia>5.6538789232713846e-07 6.7279090467340747e-07 1.0542726896043344e-06 1.3962169416336583e-10 -3.7258703221980877e-08 3.4086383546584808e-10</Inertia>
+</MassProperties>
+<GeometryFile name="PLASTIC COVER- DC MOTOR- JGB37-520-1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part1" uid="Part1*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.047140543617100877</Mass>
+<CenterOfMass>0 0 0.0015000000000000002</CenterOfMass>
+<Inertia>3.5857811809343821e-05 0.00011964568039526367 0.00015543278138918185 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part2" uid="Part2*:*Default" version="195">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046200193308107811</Mass>
+<CenterOfMass>-0.0011635181746187243 -0.00027111679122313834 0.0015</CenterOfMass>
+<Inertia>3.549902894544857e-05 0.00011571899464558309 0.00015114872330106949 0 0 7.7447457105049887e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Part2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part3" uid="Part3*:*Default" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046870685834705814</Mass>
+<CenterOfMass>0 0 0.0015000000000000002</CenterOfMass>
+<Inertia>3.6123794471758935e-05 0.00011863801415539436 0.00015469150259840122 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SHAFT COUPLER, JGB37-520-1" uid="SHAFT COUPLER, JGB37-520-1*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SHAFT COUPLER, JGB37-520-1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00050435652059506149</Mass>
+<CenterOfMass>0 0 0.0029742732935375037</CenterOfMass>
+<Inertia>7.1371765255116874e-09 7.1371765255116866e-09 1.1295017154836602e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SHAFT COUPLER- JGB37-520-1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tru dong M3 - 35mm_Default_sldprt.step" uid="Tru dong M3 - 35mm_Default_sldprt.step*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tru dong M3 - 35mm_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012774044879270722</Mass>
+<CenterOfMass>0 0.023070339934487236 0</CenterOfMass>
+<Inertia>2.7099215401619342e-07 5.4702385594518424e-09 2.7099215401619342e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tru dong M3 - 35mm_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.72941176470588232" g="0.35686274509803922" b="0.023529411764705882" a="1"/>
+<Diffuse r="0.72941176470588232" g="0.35686274509803922" b="0.023529411764705882" a="1"/>
+<Specular r="0.36470588235294116" g="0.17843137254901961" b="0.011764705882352941" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tru dong M3 - 5mm_Default_sldprt.step" uid="Tru dong M3 - 5mm_Default_sldprt.step*:*Default" version="148">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tru dong M3 - 5mm_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00014800749131954553</Mass>
+<CenterOfMass>0 0.0010653412164273405 0</CenterOfMass>
+<Inertia>1.2529455004312226e-09 5.7298258521703798e-10 1.2529455004312253e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tru dong M3 - 5mm_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46862745098039216" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="XT60 Buchse" uid="XT60 Buchse*:*Predeterminado" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="XT60 Buchse.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001127654022678008</Mass>
+<CenterOfMass>0.00053200568907524543 4.4391752311574787e-05 0.0074145904755875368</CenterOfMass>
+<Inertia>2.9444065369389837e-08 4.3886925884536741e-08 2.4996112482074839e-08 -2.1957969775075756e-10 6.4150708648684521e-12 2.8215173554030332e-11</Inertia>
+</MassProperties>
+<GeometryFile name="XT60 Buchse_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.77254901960784317" b="0" a="1"/>
+<Diffuse r="0.69999999999999996" g="0.54078431372549018" b="0" a="1"/>
+<Specular r="0.29999999999999999" g="0.23176470588235293" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="blue_wheel_frame_Default_sldprt.step" uid="blue_wheel_frame_Default_sldprt.step*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="blue_wheel_frame_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015041985700009619</Mass>
+<CenterOfMass>-0.0015171788779721252 -1.5864102801947642e-08 1.9877137810020308e-08</CenterOfMass>
+<Inertia>8.6296973268860079e-06 5.4281839844489235e-06 5.428197499936308e-06 -1.3576966407025016e-11 1.5334759802664602e-12 -1.3235222485227323e-12</Inertia>
+</MassProperties>
+<GeometryFile name="blue_wheel_frame_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="l298" uid="l298*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="l298.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011308722840094383</Mass>
+<CenterOfMass>-0.0044367939208570699 0.0062753216847790177 -0.0012190076086370895</CenterOfMass>
+<Inertia>2.4782559161963137e-06 4.3428700350627442e-06 2.9659148181546432e-06 4.8530069027062184e-09 1.6543097829110232e-07 2.0444945153302087e-07</Inertia>
+</MassProperties>
+<GeometryFile name="l298_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor_shaft_coupling_v3" uid="motor_shaft_coupling_v3*:*Default" version="156">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor_shaft_coupling_v3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010448919585863086</Mass>
+<CenterOfMass>-1.012355140303237e-09 0.0070835309669330859 -1.0735909926913796e-08</CenterOfMass>
+<Inertia>3.9107717119078802e-07 2.0752682645336656e-07 3.9479245641471947e-07 1.599137596718888e-13 2.2550772863745166e-13 1.1318829955851279e-13</Inertia>
+</MassProperties>
+<GeometryFile name="motor_shaft_coupling_v3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.51764705882352935" b="0" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.51764705882352935" b="0" a="1"/>
+<Specular r="0.45294117647058824" g="0.36235294117647054" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)" uid="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.3662247879169148e-05</Mass>
+<CenterOfMass>0.011981447032695918 0 0</CenterOfMass>
+<Inertia>6.7868743847903644e-11 6.3099888500332805e-09 6.3099888500332805e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pan cross head_am(B18.6.7M - M2 x 0.4 x 25 Type I Cross Recessed PHMS --25N)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="switch" uid="switch*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="switch.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0035047975220773059</Mass>
+<CenterOfMass>-1.0213961463898368e-08 -0.00013543825095812777 -0.0062215117005191512</CenterOfMass>
+<Inertia>1.6357498819878716e-07 1.1364125060728192e-07 1.4879288065864868e-07 3.3560736969009351e-09 2.891525338104371e-13 5.1885449699501909e-14</Inertia>
+</MassProperties>
+<GeometryFile name="switch_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
